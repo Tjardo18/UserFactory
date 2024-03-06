@@ -1,0 +1,12 @@
+models:
+  Person:
+    firstname: string
+    middlename: string nullable
+    lastname: string
+    street: string
+    housenumber: string
+    city: string
+    zip: string
+    country: string
+    phone: string
+    email: string

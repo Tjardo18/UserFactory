@@ -1,0 +1,6 @@
+created:
+    - database/factories/PersonFactory.php
+    - database/migrations/2024_03_01_130045_create_people_table.php
+    - app/Models/Person.php
+models:
+    Person: { firstname: string, middlename: 'string nullable', lastname: string, street: string, housenumber: string, city: string, zip: string, country: string, phone: string, email: string }
